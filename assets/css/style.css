@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product_card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #fbfbfb;
+}
+
+.product_card__cover {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.product_card__title {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.product_card__price {
+  margin-top: 0.5rem;
+}
